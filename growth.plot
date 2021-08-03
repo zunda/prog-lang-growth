@@ -6,4 +6,11 @@ set xlabel "Year"
 set xrange ["1980-01-01":*]
 set style data linespoints
 set log y
-plot "tex.dat" using 1:2 tit "TeX"
+plot "tex.dat" using 1:2 tit "TeX",\
+     "ruby.dat" using 1:2 tit "Ruby"
+set term push
+set term png small
+set output "growth.png"
+replot
+unset output
+set term pop
