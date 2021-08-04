@@ -9,6 +9,7 @@ set xlabel "Year"
 set xrange ["1980-01-01":*]
 set style data linespoints
 set log y
+cd "dat"
 plot "ansi-c.dat" using 1:2 tit "ANSI C",\
      "iso-cpp.dat" using 1:2 tit "ISO C++",\
      "go.dat" using 1:2 tit "Go",\
