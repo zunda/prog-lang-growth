@@ -8,6 +8,7 @@ set style data linespoints
 set log y
 plot "ansi-c.dat" using 1:2 tit "ANSI C",\
      "iso-cpp.dat" using 1:2 tit "ISO C++",\
+     "go.dat" using 1:2 tit "Go",\
      "ruby.dat" using 1:2 tit "Ruby",\
      "tex.dat" using 1:2 tit "TeX"
 set term push
