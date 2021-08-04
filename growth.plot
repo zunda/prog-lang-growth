@@ -6,8 +6,8 @@ set xdata time
 set timefmt "%Y-%m-%d"
 set format x "%Y"
 set xlabel "Year"
-set xrange ["1980-01-01":*]
-set yrange [0.5:3000]
+set xrange ["1979-01-01":*]
+set yrange [0.08:3000]
 set style data lines
 set key top left
 set log y
@@ -21,6 +21,7 @@ plot "ansi-c.dat" using 1:2 tit "ANSI C",\
      "php.dat" using 1:2 tit "PHP",\
      "python.dat" using 1:2 tit "Python",\
      "ruby.dat" using 1:2 tit "Ruby",\
+     "rust.dat" using 1:2 tit "Rust",\
      "tex.dat" using 1:2 tit "TeX"
 unset output
 set term pop
