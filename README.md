@@ -4,4 +4,4 @@
 ![the graph](./growth.png)
 
 ## License
-Data are assembled by zunda <zundan at gmail.com> and published under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+Data are assembled by zunda &lt;zundan at gmail.com&gt; and published under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
