@@ -1,6 +1,6 @@
 reset
 set term push
-set term pngcairo font "Arial,9" lw 1.5
+set term pngcairo font "Noto Sans,9" lw 1.5
 set output "growth.png"
 set xdata time
 set timefmt "%Y-%m-%d"
