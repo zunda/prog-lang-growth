@@ -8,7 +8,7 @@ set format x "%Y"
 set xlabel "Year"
 set xrange ["1980-01-01":*]
 set yrange [0.8:120]
-set style data linespoints
+set style data lines
 set log y
 cd "dat"
 plot "ansi-c.dat" using 1:2 tit "ANSI C",\
