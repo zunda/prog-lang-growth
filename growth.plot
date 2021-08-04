@@ -14,6 +14,7 @@ cd "dat"
 plot "ansi-c.dat" using 1:2 tit "ANSI C",\
      "iso-cpp.dat" using 1:2 tit "ISO C++",\
      "go.dat" using 1:2 tit "Go",\
+     "perl.dat" using 1:2 tit "Perl",\
      "python.dat" using 1:2 tit "Python",\
      "ruby.dat" using 1:2 tit "Ruby",\
      "tex.dat" using 1:2 tit "TeX"
