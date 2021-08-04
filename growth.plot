@@ -6,7 +6,7 @@ set xdata time
 set timefmt "%Y-%m-%d"
 set format x "%Y"
 set xlabel "Year"
-set xrange ["1979-01-01":*]
+set xrange ["1979-01-01":"2022-01-01"]
 set yrange [0.08:3000]
 set style data lines
 set key top left
