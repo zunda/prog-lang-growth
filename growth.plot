@@ -7,6 +7,7 @@ set timefmt "%Y-%m-%d"
 set format x "%Y"
 set xlabel "Year"
 set xrange ["1980-01-01":*]
+set yrange [0.5:150]
 set style data linespoints
 set log y
 cd "dat"
