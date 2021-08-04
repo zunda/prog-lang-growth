@@ -1,4 +1,7 @@
 reset
+set term push
+set term png small
+set output "growth.png"
 set xdata time
 set timefmt "%Y-%m-%d"
 set format x "%Y"
@@ -11,9 +14,5 @@ plot "ansi-c.dat" using 1:2 tit "ANSI C",\
      "go.dat" using 1:2 tit "Go",\
      "ruby.dat" using 1:2 tit "Ruby",\
      "tex.dat" using 1:2 tit "TeX"
-set term push
-set term png small
-set output "growth.png"
-replot
 unset output
 set term pop
