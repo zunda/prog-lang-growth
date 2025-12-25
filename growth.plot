@@ -6,7 +6,7 @@ set xdata time
 set timefmt "%Y-%m-%d"
 set format x "%Y"
 set xlabel "Year"
-set xrange ["1979-01-01":"2022-01-01"]
+set xrange ["1979-01-01":"2027-01-01"]
 set yrange [0.08:3000]
 set style data lines
 set key top left
@@ -17,6 +17,7 @@ plot "ansi-c.dat" using 1:2 tit "ANSI C",\
      "iso-cpp.dat" using 1:2 tit "ISO C++",\
      "ecmascript.dat" using 1:2 tit "ECMAScript",\
      "go.dat" using 1:2 tit "Go",\
+     "lua.dat" using 1:2 tit "Lua",\
      "perl.dat" using 1:2 tit "Perl",\
      "php.dat" using 1:2 tit "PHP",\
      "python.dat" using 1:2 tit "Python",\
